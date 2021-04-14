@@ -1,34 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
+<head>
+    <meta charset="utf-8"/>
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="stylesheet" href="/build/tailwind.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+    <link rel="stylesheet" href="/build/tailwind.css"/>
     <title>Welcome to Tailwind!</title>
-  </head>
-  <body>
-    <div class="w-full">
-      <div class="container mx-auto grid grid-cols-2 gb-blue">
-        <div class="col-span-1">
-          <div class="font-bold text-3xl">
-            ¡Vende tu auto ahora! Pública en 5 minutos
-          </div>
-          <div class="font-bold">
-            Dentro del portal de autos más visitado de Ecuador
-          </div>
-          <div>
-            <button class="btn">¡Vender ahora!</button>
-          </div>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="w-full bg-red-500">
+        <div class="container mx-auto grid grid-cols-2">
+            <div class="col-span-1 py-32">
+                <div class="w-5/6 font-semibold text-4xl text-white">
+                    ¡Vende tu auto ahora!</br>
+                    Publíca en <u>5 minutos</u>
+                </div>
+                <div class="font-semibold text-white text-xl py-8">
+                    Dentro del portal de autos más</br>
+                    visitado de Ecuador
+                </div>
+                <div>
+                    <button class="bg-white text-red-500 text-xl font-semibold py-4 px-12 shadow rounded-lg">¡Vender ahora!</button>
+                </div>
+            </div>
+            <div class="col-span-1">
+                image
+            </div>
         </div>
-        <div class="col-span-1">
-          image
-        </div>
-      </div>
     </div>
-  </body>
+    <div class="w-full">
+        <div class="container mx-auto py-12">
+            <div class="text-center text-gray-600 text-2xl font-semibold pb-16">
+                Vende tu auto sin salir de casa en <span class="text-red-500">3 simples</span> pasos
+            </div>
+            <div class="grid grid-cols-3 gap-16">
+                <div class="col-span-1">
+                    <div class="p-10">
+                        <div class="inline-flex pb-6">
+                            <div class="bg-purple-500 text-white font-semibold flex items-center justify-center mr-4" style="min-width: 50px; min-height: 50px; border-radius: 20px">1</div>
+                            <div class="text-gray-800 font-semibold text-sm">Ingresa la información de tu vehículo</div>
+                        </div>
+                        <div class="text-gray-600 text-sm leading-7">
+                            Ingresa a tu cuenta o crea una nueva sin costo. Completa los datos de tu auto: Marca,
+                            Modelo Año, Precio y Kilometraje.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div class="p-10">
+                        <div class="inline-flex pb-6">
+                            <div class="bg-yellow-500 text-white font-semibold flex items-center justify-center mr-4" style="min-width: 50px; min-height: 50px; border-radius: 20px">2</div>
+                            <div class="text-gray-800 font-semibold text-sm">Carga las mejores fotos de tu auto</div>
+                        </div>
+                        <div class="text-gray-600 text-sm leading-7">
+                            Tener buenas fotos aumentará la posibilidad de venta de tu vehículo
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <div class="p-10">
+                        <div class="inline-flex pb-6">
+                            <div class="bg-red-500 text-white font-semibold flex items-center justify-center mr-4" style="min-width: 50px; min-height: 50px; border-radius: 20px">3</div>
+                            <div class="text-gray-800 font-semibold text-sm">Elige tu plan de publicación y forma de pago </div>
+                        </div>
+                        <div class="text-gray-600 text-sm leading-7">
+                            Tu anuncio será publicado después de realizar el pago con éxito.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full text-center font-semibold text-2xl text-gray-600 pt-16 pb-8">
+                ¿Estás listo para vender tu vehículo?
+            </div>
+            <div class="w-full text-center">
+                <button class="bg-red-500 text-white text-sm font-semibold py-4 px-16 shadow rounded-lg">PUBLICA Y VENDE AQUÍ</button>
+            </div>
+        </div>
+    </div>
+    <div class="w-full bg-gray-100">
+        <div class="container mx-auto py-12">
+            <div class="text-center text-gray-600 text-xl font-semibold pb-16">
+                Testimonios
+            </div>
+            <div class="grid grid-cols-3 gap-12">
+                <div class="col-span-1 shadow-lg rounded-lg bg-white">
+                    <div class="p-10">
+                        <div class="pb-8">
+                            <div>Image</div>
+                        </div>
+                        <div class="text-gray-600 leading-8	">
+                            "Seminuevos me ayudó a comprar el auto de mis sueños, muchas gracias por toda la gestión y su gran apoyo en todo momento"
+                        </div>
+                        <div class="mt-12">
+                            <span class="text-xl font-light">Sean Walker /</span> <span class="text-ls font-light text-gray-500">Vendedor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1 shadow-lg rounded-lg bg-white">
+                    <div class="p-10">
+                        <div class="pb-8">
+                            <div>Image</div>
+                        </div>
+                        <div class="text-gray-600 leading-8	">
+                            "Seminuevos me ayudó a comprar el auto de mis sueños, muchas gracias por toda la gestión y su gran apoyo en todo momento"
+                        </div>
+                        <div class="mt-12">
+                            <span class="text-xl font-light">Sean Walker /</span> <span class="text-ls font-light text-gray-500">Vendedor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1 shadow-lg rounded-lg bg-white">
+                    <div class="p-10">
+                        <div class="pb-8">
+                            <div>Image</div>
+                        </div>
+                        <div class="text-gray-600 leading-8	">
+                            "Seminuevos me ayudó a comprar el auto de mis sueños, muchas gracias por toda la gestión y su gran apoyo en todo momento"
+                        </div>
+                        <div class="mt-12">
+                            <span class="text-xl font-light">Sean Walker /</span> <span class="text-ls font-light text-gray-500">Vendedor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1 shadow-lg rounded-lg bg-white">
+                    <div class="p-10">
+                        <div class="pb-8">
+                            <div>Image</div>
+                        </div>
+                        <div class="text-gray-600 leading-8	">
+                            "Seminuevos me ayudó a comprar el auto de mis sueños, muchas gracias por toda la gestión y su gran apoyo en todo momento"
+                        </div>
+                        <div class="mt-12">
+                            <span class="text-xl font-light">Sean Walker /</span> <span class="text-ls font-light text-gray-500">Vendedor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1 shadow-lg rounded-lg bg-white">
+                    <div class="p-10">
+                        <div class="pb-8">
+                            <div>Image</div>
+                        </div>
+                        <div class="text-gray-600 leading-8	">
+                            "Seminuevos me ayudó a comprar el auto de mis sueños, muchas gracias por toda la gestión y su gran apoyo en todo momento"
+                        </div>
+                        <div class="mt-12">
+                            <span class="text-xl font-light">Sean Walker /</span> <span class="text-ls font-light text-gray-500">Vendedor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1 shadow-lg rounded-lg bg-white">
+                    <div class="p-10">
+                        <div class="pb-8">
+                            <div>Image</div>
+                        </div>
+                        <div class="text-gray-600 leading-8	">
+                            "Seminuevos me ayudó a comprar el auto de mis sueños, muchas gracias por toda la gestión y su gran apoyo en todo momento"
+                        </div>
+                        <div class="mt-12">
+                            <span class="text-xl font-light">Sean Walker /</span> <span class="text-ls font-light text-gray-500">Vendedor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-full">
+        <div class="container mx-auto py-16">
+            <div class="text-center text-gray-600 text-xl font-semibold pb-16">
+                Preguntas frecuentes para vender un auto en Seminuevos
+            </div>
+            <div class="grid">
+                <div class="border text-sm font-semibold p-4 text-gray-700 cursor-pointer" style="margin-bottom: -1px">
+                    ¿ Cómo puedo vender rápidamente? <span class="float-right">&#94;</span>
+                </div>
+                <div class="py-4 px-8 text-gray-500 font-light text-sm leading-8">
+                    Tu puedes instalar el dispositivo en cualquier oficina autorizada de Hunter o LatamAutos, ubicados en Quito, Guayaquil o Cuenca, la instalación dura 45 minutos y debes dejar tu vehículo, luego uno de nuestros técnicos se contactará contigo una vez que el vehículo este listo para usarlo.
+                </div>
+                <div class="border text-sm font-semibold p-4 text-gray-700 cursor-pointer" style="margin-bottom: -1px">
+                    ¿ Qué pasa si se se vende mi vehículo? <span class="float-right">&#94;</span>
+                </div>
+                <div class="py-4 px-8 text-gray-500 font-light text-sm leading-8">
+                    Tu puedes instalar el dispositivo en cualquier oficina autorizada de Hunter o LatamAutos, ubicados en Quito, Guayaquil o Cuenca, la instalación dura 45 minutos y debes dejar tu vehículo, luego uno de nuestros técnicos se contactará contigo una vez que el vehículo este listo para usarlo.
+                </div>
+                <div class="border text-sm font-semibold p-4 text-gray-700 cursor-pointer" style="margin-bottom: -1px">
+                    ¿ Que ventajas tengo de vender por Seminuevos? <span class="float-right">&#94;</span>
+                </div>
+                <div class="py-4 px-8 text-gray-500 font-light text-sm leading-8">
+                    Tu puedes instalar el dispositivo en cualquier oficina autorizada de Hunter o LatamAutos, ubicados en Quito, Guayaquil o Cuenca, la instalación dura 45 minutos y debes dejar tu vehículo, luego uno de nuestros técnicos se contactará contigo una vez que el vehículo este listo para usarlo.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
